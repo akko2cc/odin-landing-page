@@ -1,0 +1,269 @@
+* {
+    box-sizing: border-box;
+}
+
+html {
+    
+}
+
+body {
+    padding: 0;
+    margin: auto;
+    font-family: "Roboto", sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-width: 1305px;
+}
+
+/* flex */
+
+.flex-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+}
+
+/* header */
+header {
+    background-color: #1F2937;
+    color: #f9faf8;
+    width: 100%;
+}
+
+.header-wrapper {
+    display: flex;
+    flex-direction: column;
+    padding: 0 10rem;
+}
+
+.header-container {
+    display: flex;
+    justify-content: center;
+    gap: 37rem;
+    align-items: center;
+}
+
+.header-logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.header-links {
+    display: flex;
+    align-items: center;
+    font-size: 18px;
+}
+
+.header-link-item {
+    margin: 1rem 1rem;
+}
+
+/* content */
+.content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+}
+
+.content-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0 5rem;
+}
+
+/* content-one */
+
+.content-one-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 59rem;
+}
+
+.content-one-item {
+    flex-basis: 100rem;
+}
+
+.content-one-item-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-right: 100px;
+}
+
+.content-one-main-text {
+    font-size: 48px;
+    font-weight: 900;
+}
+
+.content-one-sub-text {
+
+}
+
+.content-one-button button {
+    background-color: #3882F6;
+    border: none;
+    text-align: center;
+    border-radius: 10px;
+    color: white;
+    font-size: 1rem;
+    font-weight: bold;
+    padding: 0.5rem 1.7rem;
+    margin-top: 1rem;
+}
+
+.content-one-image {
+    width: 60rem;
+    height: 12rem;
+    background-color: gray;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.content-one {
+    background-color: #1F2937;
+    color: #f9faf8;
+    padding: 6rem 0;
+}
+
+/* content two */
+
+.content-two-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.content-two {
+    padding: 3rem 0;
+}
+
+.content-two-item {
+    align-self: center;
+}
+
+.content-two-title {
+    font-size: 36px;
+    font-weight: bold;
+    margin-bottom: 3rem;
+}
+
+.content-two-item-container {
+    display: flex;
+    gap: 2rem;
+}
+
+.content-two-item-container-item-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.content-two-box {
+    width: 10rem;
+    height: 10rem;
+    outline-style: solid;
+    outline-color: #3882F6;
+    border-radius: 10px;
+    outline-offset: -2px;
+}
+
+.content-two-box-subtext {
+    color: #303030;
+}
+
+/* content three */
+
+.content-three {
+    padding: 6rem 0;
+    background-color: #e5e7eb;
+}
+
+.content-three-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.content-three-quote {
+    font-size: 36px;
+    font-style: italic;
+    color: grey;
+}
+
+.content-three-author {
+    font-weight: bold;
+    align-self: flex-end;
+}
+
+/* content four */
+
+.content-four {
+    padding: 6rem 0;
+    color: white;
+}
+
+.content-four-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #3882F6;
+    max-width: 59rem;
+    padding: 3rem 6rem;
+    outline-style: solid;
+    outline-color: #3882F6;
+    border-radius: 10px;
+    outline-offset: -2px;
+}
+
+.content-four-container-item {
+    flex-basis: 10rem;
+}
+
+.content-four-container-item-container-item {
+    margin-right: 3rem;
+}
+
+.content-four-bold-text {
+    font-weight: bold;
+    margin-right: 100px;
+}
+
+.content-four-button button {
+    width: 100%;
+    background: transparent;
+    text-align: center;
+    color: white;
+    font-size: 1rem;
+    font-weight: bold;
+    padding: 0.5rem 1.7rem;
+    outline-width: 0.2rem;
+    outline-style: solid;
+    outline-color: white;
+    border-radius: 10px;
+    outline-offset: -2px;
+}
+
+/* footer */
+footer {
+    background-color: #1F2937;
+    color: #f9faf8;
+    width: 100%;
+}
+
+.footer-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+}
